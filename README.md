@@ -9,13 +9,13 @@ T_half = 4.468e9;    % perioada de injumatatire in ani (U-238)
 N0 = 1;               % cantitate initiala normalizata
 N  = 0.5;             % cantitate ramasa (exemplu: 50% ramas)
 
-% ===== Constanta de dezintegrare =====
+% ===== Constanta de dezintegrare din cautari =====
 lambda = log(2)/T_half;
 
-% ===== Calculul timpului trecut =====
+% ===== Calculul timpului trecut relativ mereu la acesta =====
 t = (1/lambda) * log(N0/N);
 
-% ===== Afisare rezultatul relativ la anul 2025 =====
+% ===== Afisare rezultatul relativ la anul t-1 =====
 anul_2025 = 2025;
 anul_formare = anul_2025 - t;
 
