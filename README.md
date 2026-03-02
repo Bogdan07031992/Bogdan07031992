@@ -27,3 +27,4 @@ fprintf('Anul estimat al formarii probei: %.0f d
 Bogdan07031992/Bogdan07031992 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+ THE THEORY OF EVERYTHING. GOD PARTICLE = C
